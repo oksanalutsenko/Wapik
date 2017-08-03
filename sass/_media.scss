@@ -453,11 +453,17 @@
 	}
 	footer {
 		.footer-top {
-		    padding: 20px 0 30px 0;
+		    padding: -20px 0 30px 0;
 		     .column {
-		        float: none;
-		        margin: 0 10px 10px;
-		        width: 97%;
+		        height: 250px;
+		        margin: 0 ;
+		        width: 48%;
+		    }
+		    .col-1 {
+		    	float: left;
+		    }
+		    .col-2 {
+		    	float: right;
 		    }
 		} 
 		.foot .social {
@@ -470,6 +476,7 @@
 		    display: inline-block;
 		    position: absolute;
 		    top: 25px;
+		    left: 15px;
 		}
 	}
 	//Внутренняя страница ABOUT US
