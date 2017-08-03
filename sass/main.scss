@@ -1,0 +1,904 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+html {
+	font-size: 16px;
+}
+body {
+    min-width: 280px;
+    position: relative;
+    line-height: 1.6;
+    font-family: "Roboto-Regular", sans-serif;
+    overflow-x: hidden;
+    color: $main-color;
+}
+.container, .row {
+    padding: 0;
+    margin: 0 auto;
+}
+header {
+	background: url(../img/main_bg.jpg) no-repeat;
+	background-size: cover;
+	color: $white-color;
+	position: relative;
+	.header-top {
+		padding: 30px 0;
+		width: 100%;
+		min-height: 85px;
+		position: relative;
+		a {
+			display: inline;
+			color: $white-color;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.text-right {
+		    margin-top: 8px;
+		    text-align: right;
+		}
+		.logo {
+			strong, span {
+				font-family:  "Proxima Nova Bold";
+				font-size: 1.8rem;
+			}
+			span {
+				opacity: .3;
+			}
+			strong {
+				margin-right: 10px;
+			}
+			a {
+				padding: 10px;
+				&:hover {
+					background-color: $link-hover;
+					color: $white-color;
+				}
+			}
+			.number {
+				font-size: 14px;
+				font-family:  "Montserrat-Regular";
+				line-height: 20px;
+				vertical-align: super;
+			}
+			p a:first-child {
+				font-size: 29px;
+				span {
+					font-size: 28px;
+					opacity: .2;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+		.main-nav {
+			ul {
+				li {
+					display: inline;
+					padding-left: 30px;
+					vertical-align: -moz-middle-with-baseline;
+					a {
+						font-family:  "Montserrat-Regular";
+						font-size: 15px;
+						color: $white-grey;
+						padding: 10px;
+						&:hover {
+							background-color: $link-hover;
+							color: $white-color;
+						}
+					}
+				}
+			}
+		}
+		.dropdown {
+		      left: 2%;
+		      position: absolute;
+		      right: 2%;
+		      top: 15%;
+		    .fa.fa-bars {
+		        font-size: 30px;
+		           position: absolute;
+		           right: 50px;
+		           top: 21px;
+		    }
+		}
+		.dropdown-menu {
+		   background: $main-color none repeat scroll 0 0;
+		   font-size: 17px;
+		   margin: 0;
+		   padding: 0;
+		   position: absolute;
+		   right: 0;
+		   top: 55px;
+		}
+	}
+	.container {
+		.header-line {
+			height: 1px;
+		     left: 0;
+			position: absolute;
+			right: 0;
+			width: 100%;
+			border-bottom: 1px solid $main-color;
+		}
+	}
+	.welcome {
+	    margin-bottom: 15%;
+	    margin-top: 16%;
+	    width: 45%;
+	    button {
+	    border-radius: 3px;
+	       font-family: "Montserrat-Regular";
+	       font-size: 14px;
+	       margin-top: 25px;
+	       padding: 3%;
+	       text-transform: uppercase;
+	       width: 34%;
+	    	  border-radius: 3px;
+	    }
+		h1, p {
+			font-family: "Roboto-Regular";
+		}
+		h1 {
+			font-size: 2.37rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}
+
+main {
+	.main_row {
+		h3 {
+			margin-top: 90px;
+			margin-bottom: 20px;
+			font-size: 2rem;
+			font-family: "Roboto-Light";
+			color: $dark-green; 
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+		p {
+			font-family:  "Roboto-Regular";
+			font-size: 1rem;
+			color: $main-color;
+			margin-bottom: 70px;
+			margin-top: 20px;
+		}
+	}
+	.content-col {
+		width: 33%;
+		float: left;
+		height: calc(240px);
+		h6 {
+			font-family:  "Roboto-Regular";
+			font-size: 1rem;
+			color: $dark-green;
+			margin-top: 28px;
+			margin-bottom: 25px;
+		}
+		img {
+			margin: 0 auto;
+			display: block;
+			height: 50px;
+		}
+		p {
+			font-family: "Roboto-Regular";
+			font-size: 1rem;
+			line-height: 25px;
+		}
+	}
+	.figure {
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 50px;
+		}
+	}
+	.cont_block_top, .cont_block_bottom {
+		width: 100%;
+		font-family: "Roboto-Regular";
+		.block-text {
+			width: 48%;
+			float: left;
+			margin-bottom: 60px;
+			box-sizing: border-box;
+			&:first-child {
+				margin-right: 6%;
+			}
+		}
+		.block-text2 {
+			float: right;
+			width: 46%;
+		}
+		.block-text, .block-text2 {
+			 h4 {
+			    display: inline-block;
+			    padding-left: 20px;
+			    font-size: 1rem;
+				color: $dark-green;
+			}
+			p {
+				margin-top: 15px;
+				font-size: 1.14rem;
+			}
+		}
+	}
+}
+
+.looking {
+	background: rgba(0, 0, 0, 0) url("../img/phone_bg.jpg") no-repeat scroll 55% 0 / cover ;
+	position: relative;
+	min-height: 660px;
+	h2 {
+		font-family: "Roboto-Light";
+		font-size: 2rem;
+		padding-top: 40px;
+		margin-bottom: 20px;
+		color: $dark-green;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	h5 {
+		margin-top: 20px;
+		font-family: "Roboto-Regular";
+		font-size: 1.06rem;
+		margin-bottom: 30px;
+	}
+	.responsive {
+		 bottom: 4%;
+		    position: absolute;
+		    right: 2%;
+		    width: 48%;
+		  h3 {
+		  	font-family: "Roboto-Light";
+		  	font-size: 2rem;
+		  	color: $dark-green;
+		  }
+		  p {
+		  	color: $main-color;
+		  	font-size: 1.1rem;
+		  	font-family: "Roboto-Regular";
+		  	margin-bottom: 25px;
+		  }
+		  img {
+		      display: inline;
+		      padding-right: 7px;
+		 }
+	}
+}
+
+.director {
+	position: relative;
+	.director_says {
+	    float: left;
+	    margin-left: 3%;
+	    margin-top: 18%;
+	    width: 46%;
+	    p {
+	    	font-family: "Merriweather-LightIt";
+	    	font-size: 22px;
+	    	line-height: 35px;
+	    }
+	    .valeria {
+		    	font-family: "Roboto-Regular";
+		    	font-size: 14px;
+		    	line-height: 26px;
+		    	margin-top: 60px;
+		    	span {
+		    		font-family: "Roboto-Medium";
+		    		color: $green-color;
+		    	}
+	    }
+	}
+	.director_photo {
+	    float: right;
+	    margin-right: 9%;
+	    margin-top: 9%;
+	    width: 32%;
+	    margin-bottom: 9%;
+	}
+}
+
+.built {
+	min-height: 500px;
+	background: rgba(0, 0, 0, 0) url("../img/map_bg.jpg") no-repeat scroll -73px 0;
+	background-size: cover;
+	.b_content {
+		float: left;
+		width: 50%;
+		margin-top: 12%;
+		h3 {
+			font-size: 2rem;
+			font-family: "Roboto-Light";
+			color: $accent-color;
+		}
+		p {
+			font-family: "Roboto-Regular";
+			font-size: 1.14rem;
+		}
+	}
+	.map {
+		float: right;
+	}
+}
+
+.pricing {
+	.plan {
+		h3 {
+			font-family: "Roboto-Light";
+			font-size: 2rem;
+			color: $accent-color;
+			margin: 100px 0 20px 0;
+		}
+		img {
+			margin: 0 auto;
+			display: block;
+		}
+		h5 {
+			font-family: "Roboto-Regular";
+			font-size: 1.07rem;
+			color: $main-color;
+			margin: 20px 0 40px 0;
+			line-height: 25px;
+		}
+	}
+	.pricing-table {
+		margin: 0 auto;
+		display: block;
+		width: 70%;
+		border: 1px solid $blue;
+		margin-bottom: 80px;
+		.price {
+			float: left;
+			width: 33%;
+			text-align: center;
+			&:first-child {
+				border-right: 1px solid $blue;
+			}
+			&:nth-child(3) {
+				border-left: 1px solid $blue;
+			}
+			span {
+				color: $green-color;
+				font-family: "Roboto-Medium";
+				font-size: 1.07rem;
+				text-transform: uppercase;
+			}
+			h5 {
+				margin-top: 25px;
+				margin-bottom: 20px;
+			}
+			h2 {
+				font-family: "Montserrat-Regular";
+				font-size: 4rem;
+				color: $accent-color;
+			}
+			h6 {
+				color: $accent-color;
+				font-size: 0.8rem;
+				font-family: "Roboto-Regular";
+				margin-bottom: 25px;
+			}
+			p {
+				font-size: 1rem;
+				font-family: "Roboto-Regular";
+			}
+			button {
+				background: $main-color;
+				 border-radius: 5px;
+				    color: #fff;
+				    font-family: "Montserrat-Regular";
+				    font-size: 0.9rem;
+				    padding: 4%;
+				    text-transform: uppercase;
+				    width: 50%;
+				    margin: 25px 0;
+				    &:hover {
+				    	background: $green-color;
+				    }
+			}
+		}
+	}
+	h4 {
+		font-size: 2rem;
+		font-family: "Roboto-Light";
+		color: $accent-color;
+		margin-bottom: 20px;
+	}
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+	.included {
+		margin-top: 35px;
+		margin-bottom: 60px;
+		img {
+			display: inline;
+			padding-right: 10px;
+		}
+	}
+	.help {
+		h3 {
+			margin: 15px 0 25px 0;
+			color: $green-color;
+			font-size: 2rem;
+			font-family:  "Roboto-Light";
+		}
+		h5 {
+			margin: 20px 0 40px 0;
+			font-size: 1rem;
+			line-height: 22px;
+		}
+		a {
+			display: table;
+			margin: 0 auto;
+			margin-bottom: 95px;
+			color: $accent-color;
+			&:hover {
+				color: $green-color;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.download {
+	background: url(../img/download_bg.jpg) no-repeat;
+	background-size: cover;
+	h2 {
+		font-size: 1.75rem;
+		font-family: "Montserrat-Regular";
+		margin: 75px 0 10px 0;
+	}
+	h6 {
+		margin-bottom: 80px;
+		font-size: 1rem;
+	}
+	button {
+		font-family: "Montserrat-Regular";
+		color: $white-color;
+		padding: 10px;
+		width: 285px;
+		margin-top: 22%;
+		text-transform: uppercase;
+		border-radius: 5px;
+	}
+}
+
+footer {
+	.footer-top {
+		padding: 100px 0 69px 0 !important;
+		border-bottom: $grey-color 1px solid;
+		.column {
+			h5 {
+				font-family: "Proxima Nova Bold";
+				font-size: 22px;
+				color: $accent-color;
+				margin-bottom: 15px;
+			}
+			p {
+				font-family: "Roboto-Regular";
+				color: $main-color;
+				font-size: 13px;
+			}
+			a {
+				color: #83a7a5;
+				    display: inline-block;
+				    font-size: 13px;
+				    padding: 5px 10px 0 3px;
+				    text-decoration: none;
+				    width: 100%;
+				&:hover {
+					background-color: $link-hover;
+					color: $white-color;
+				}
+			}
+			h6 {
+				font-family: "Roboto-Medium";
+				font-size: 15px;
+				color: $accent-color;
+			}
+		}
+	} 
+	.foot {
+		position: relative;
+		margin-bottom: 20px	;
+		.reserved {
+			display: inline-block;
+			   position: absolute;
+			   top: 35px;
+		}
+		.social {
+			position: absolute;
+			top: 30px;
+			right: 0;
+			.social_icon {
+				width: 35px;
+				height: 35px;
+				border-radius: 20px;
+				display: inline-block;
+				margin-right: 10px;
+				margin-bottom: 20px;
+			}	
+			.fa.fa {
+			    padding-left: 10px;
+			    padding-top: 9px;
+			    color: $white-color;
+			}
+			.twitter {
+				background: $light-blue;
+				&:hover {
+					background-color: darken($light-blue,25%);
+				}
+			}
+			.facebook {
+				background: $dark-blue;
+				&:hover {
+					background-color: darken($dark-blue,17%);
+				}
+			}
+			.instagram {
+				background: $insta;
+				&:hover {
+					background-color: darken($insta,15%);
+				}
+			}
+			.dribble {
+				background: $pink;
+				&:hover {
+					background-color: darken($pink,15%);
+				}
+			}
+			.github {
+				background: $black;
+				&:hover {
+					background-color: lighten($black,6%);
+				}
+			}
+		}
+	}
+}
+
+//Внутренняя страница ABOUT US
+
+#header {
+	background: url(../img/about_bg.jpg) no-repeat;
+	color: $white-color;
+	position: relative;
+	.welcome {
+		width: 100%;
+		margin: 0 auto;
+		h2 {
+			font-family: "Roboto-Light";
+			font-size: 50px;
+			width: 100%;
+			margin-top: 8%;
+		}
+		button {
+			border-radius: 3px;
+			   display: block;
+			   font-family: "Montserrat-Regular";
+			   font-size: 13px;
+			   margin: 5% auto 14%;
+			   padding: 1.5%;
+			   text-transform: uppercase;
+			   width: 200px;
+		}
+	}
+	.main-nav {
+		ul {
+			li {
+				.second {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.main {
+	h5 {
+	    display: block;
+	    font-size: 15px;
+	    line-height: 25px;
+	    margin: 35px auto 95px;
+	    text-align: center;
+	    width: 67%;
+	}
+	.about_row {
+		margin-bottom: 70px;
+	}
+}
+
+#looking {
+	background: $grey-color no-repeat scroll 55% 0 / cover ;
+	position: relative;
+	 h5 {
+	    display: block;
+	    font-family: "Roboto-Regular";
+	    font-size: 1.06rem;
+	    line-height: 25px;
+	    margin: 40px auto;
+	    width: 70%;
+	}
+	
+	.thumbnail {
+	    background-color: transparent;
+	    border: medium none;
+	    display: block;
+	    line-height: 1.42857;
+	    margin-bottom: 20px;
+	    padding: 21px;
+	    margin-top: 70px;
+	    transition: all 0.2s ease-in-out 0s;
+	    h3 {
+	    	font-family: "Roboto-Medium";
+	    	font-size: 15px;
+	    	color: $accent-color;
+	    	margin-top: 20px;
+	    }
+	    p {
+	    	color: $main-color;
+	    	font-family: "Roboto-Regular";
+	    	font-size: 14px;
+	    	margin-bottom: 70px;
+	    }
+	    img {
+	        display: block;
+	        margin: 0;
+	    }
+	}
+}
+
+#download {
+	background: url(../img/download_bg2.jpg) no-repeat;
+	background-size: cover;
+	color: $white-color;
+	button {
+		background: $down-color;
+		border: none;
+		width: 285px;
+		&:hover {
+			background-color: darken($down-color, 7%);
+			
+		}
+	}
+}
+
+//Внутренняя страница CONTACT US
+
+.top-head {
+    background-color: $white-color;
+    background-image: none;
+    .header-top {
+	    	padding: 30px 0;
+	    	width: 100%;
+	    	min-height: 85px;
+	    	position: relative;
+	    	a {
+	    		display: inline;
+	    		color: $white-color;
+	    		text-transform: uppercase;
+	    		text-decoration: none;
+	    	}
+	    	.text-right {
+	    	    margin-top: 11px;
+	    	    text-align: right;
+	    	}
+	    	.logo {
+	    		strong, span {
+	    			font-family:  "Proxima Nova Bold";
+	    			font-size: 1.8rem;
+	    		}
+	    		span {
+	    			opacity: .3;
+	    		}
+	    		strong {
+	    			margin-right: 10px;
+	    		}
+	    		a {
+	    			padding: 10px;
+	    			&:hover {
+	    				background-color:  $green-color;
+	    				color: $white-color;
+	    			}
+	    		}
+	    		.number {
+	    			font-size: 14px;
+	    			font-family:  "Montserrat-Regular";
+	    			line-height: 20px;
+	    			vertical-align: super;
+	    			color:  $main-color;
+	    			&:hover {
+	    				background-color:  $green-color;
+	    				color: $white-color;
+	    			}
+	    		}
+	    		p a:first-child {
+	    			font-size: 29px;
+	    			span {
+	    				font-size: 28px;
+	    				opacity: .2;
+	    				padding-left: 20px;
+	    				padding-right: 20px;
+	    			}
+	    		}
+	    	}
+	    	.main-nav {
+	    		ul {
+	    			li {
+	    				display: inline;
+	    				padding-left: 3px;
+	    				vertical-align: -moz-middle-with-baseline;
+	    				a {
+	    					font-family:  "Montserrat-Regular";
+	    					font-size: 15px;
+	    					color: $main-color;
+	    					padding: 10px;
+	    					&:hover {
+	    						background-color: $green-color;
+	    						color: $white-color;
+	    					}
+	    				}
+	    			}
+	    		}
+	    	}
+	    	.dropdown {
+    	      left: 2%;
+    	      position: absolute;
+    	      right: 2%;
+    	      top: 15%;
+	    	      a {
+	    	          color: $main-color;
+	    	          display: inline;
+	    	          text-decoration: none;
+	    	          text-transform: uppercase;
+	    	      }
+	    	    .fa.fa-bars {
+	    	         font-size: 30px;
+    	        	    left: 93%;
+    	        	    position: absolute;
+    	        	    top: 21px
+	    	     }
+	    	}
+	    	.dropdown-menu {
+	    	   background: $white-color none repeat scroll 0 0;
+	    	  color: $main-color;
+	    	   font-size: 17px;
+	    	   margin: 0;
+	    	   padding: 0;
+	    	   position: absolute;
+	    	   right: 0;
+	    	   top: 55px;
+	    	   li {
+	    	   	    padding-bottom: 10px;
+	    	   	    a {
+	    	   	    	   color: $main-color;;
+	    	   	    	   text-decoration: none;
+	    	   	    	   text-transform: uppercase;
+	    	   	    }
+	    	   }
+	    	}
+    }
+    .header_bg {
+    	background: url(../img/contactUs_bg.jpg) no-repeat;
+    	background-size: cover;
+    	min-height: 400px;
+    }
+}
+
+.get-In {
+	h4 {
+		font-family: "Roboto-Light";
+		color: $accent-color;
+		font-size: 32px;
+		margin: 80px 0 35px 0;
+	}
+	h6 {
+		font-family: "Roboto-Regular";
+		font-size: 15px;
+		margin-bottom: 75px;
+	}
+	form {
+		width: 152%;
+		input, textarea {
+		    margin-bottom: 25px;
+		    width: 100%;
+		    color: $main-color;
+		    font-family: "Roboto-Regular";
+		    font-size: 14px;
+		    padding-left: 18px;
+		}
+		input {
+			height: 42px;
+		}
+		textarea {
+			padding-top: 10px;
+		} 
+		button {
+			width: 190px;
+			height: 40px;
+			font-family: "Montserrat-Regular";
+			font-size: 13px;
+			text-transform: uppercase;
+			margin: 20px 0 100px 0;
+		}
+	}
+	.communication {
+		width: 310px;
+		height: 275px;
+		border: 2px dashed $main-color;
+		margin-left: 8%;
+		padding-left: 50px;
+		padding-top: 15px;
+		h3 {
+			font-size: 25px;
+			font-family: "Montserrat-Regular";
+			margin-left: -18px;
+		}
+		p {
+			text-indent: -21px;
+			i {
+				color: $green-color;
+				font-size: 18px;
+				padding-right: 10px;
+				display: inline;
+			}
+			a {
+				color: $main-color;
+				font-size: 15px;
+				text-decoration: none;
+				&:hover {
+					color: $green-color;
+				}
+			}
+			.mail {
+				color: $accent-color;
+			}
+		}
+	}
+}
+//Внутренняя страница PRICING
+
+.top-nav {
+	background-color: $grey-color;
+	border-bottom: 1px solid $line;
+}
+
+.get-started {
+	background-color: $grey-color;
+	h3 {
+		margin: 60px 0 25px 0;
+		font-family: "Roboto-Light";
+		font-size: 32px;
+		color: $accent-color;
+	}
+	h4 {
+		font-size: 14px;
+		margin: -35px 0 0;
+		padding-bottom: 60px;
+		color: $main-color;
+		span {
+			text-transform: uppercase;
+		}
+	}
+	h6 {
+		font-size: 15px;
+		margin-bottom: 50px;
+	}
+	.pricing-table {
+		background: $white-color;
+	}
+}
+
+.pricing {
+	.center {
+		margin-top: 80px;
+	}
+}
+

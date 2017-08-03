@@ -1,0 +1,1139 @@
+@font-face {
+  font-family: "Merriweather-LightIt";
+  src: url("../fonts/Merriweather-LightIt.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/Proxima Nova Bold.otf"); }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: "Merriweather-LightIt";
+  src: url("../fonts/Merriweather-LightIt.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/Proxima Nova Bold.otf"); }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+html {
+  font-size: 16px; }
+
+body {
+  min-width: 280px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "Roboto-Regular", sans-serif;
+  overflow-x: hidden;
+  color: #83a7a5; }
+
+.container, .row {
+  padding: 0;
+  margin: 0 auto; }
+
+header {
+  background: url(../img/main_bg.jpg) no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  position: relative; }
+  header .header-top {
+    padding: 30px 0;
+    width: 100%;
+    min-height: 85px;
+    position: relative; }
+    header .header-top a {
+      display: inline;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: none; }
+    header .header-top .text-right {
+      margin-top: 8px;
+      text-align: right; }
+    header .header-top .logo strong, header .header-top .logo span {
+      font-family: "Proxima Nova Bold";
+      font-size: 1.8rem; }
+    header .header-top .logo span {
+      opacity: .3; }
+    header .header-top .logo strong {
+      margin-right: 10px; }
+    header .header-top .logo a {
+      padding: 10px; }
+      header .header-top .logo a:hover {
+        background-color: #6b8282;
+        color: #ffffff; }
+    header .header-top .logo .number {
+      font-size: 14px;
+      font-family: "Montserrat-Regular";
+      line-height: 20px;
+      vertical-align: super; }
+    header .header-top .logo p a:first-child {
+      font-size: 29px; }
+      header .header-top .logo p a:first-child span {
+        font-size: 28px;
+        opacity: .2;
+        padding-left: 20px;
+        padding-right: 20px; }
+    header .header-top .main-nav ul li {
+      display: inline;
+      padding-left: 30px;
+      vertical-align: -moz-middle-with-baseline; }
+      header .header-top .main-nav ul li a {
+        font-family: "Montserrat-Regular";
+        font-size: 15px;
+        color: #cfd3d3;
+        padding: 10px; }
+        header .header-top .main-nav ul li a:hover {
+          background-color: #6b8282;
+          color: #ffffff; }
+    header .header-top .dropdown {
+      left: 2%;
+      position: absolute;
+      right: 2%;
+      top: 15%; }
+      header .header-top .dropdown .fa.fa-bars {
+        font-size: 30px;
+        position: absolute;
+        right: 50px;
+        top: 21px; }
+    header .header-top .dropdown-menu {
+      background: #83a7a5 none repeat scroll 0 0;
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      top: 55px; }
+  header .container .header-line {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid #83a7a5; }
+  header .welcome {
+    margin-bottom: 15%;
+    margin-top: 16%;
+    width: 45%; }
+    header .welcome button {
+      border-radius: 3px;
+      font-family: "Montserrat-Regular";
+      font-size: 14px;
+      margin-top: 25px;
+      padding: 3%;
+      text-transform: uppercase;
+      width: 34%;
+      border-radius: 3px; }
+    header .welcome h1, header .welcome p {
+      font-family: "Roboto-Regular"; }
+    header .welcome h1 {
+      font-size: 2.37rem; }
+    header .welcome p {
+      font-size: 1rem; }
+
+main .main_row h3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: "Roboto-Light";
+  color: #0f5f5c; }
+
+main .main_row img {
+  display: block;
+  margin: 0 auto; }
+
+main .main_row p {
+  font-family: "Roboto-Regular";
+  font-size: 1rem;
+  color: #83a7a5;
+  margin-bottom: 70px;
+  margin-top: 20px; }
+
+main .content-col {
+  width: 33%;
+  float: left;
+  height: calc(240px); }
+  main .content-col h6 {
+    font-family: "Roboto-Regular";
+    font-size: 1rem;
+    color: #0f5f5c;
+    margin-top: 28px;
+    margin-bottom: 25px; }
+  main .content-col img {
+    margin: 0 auto;
+    display: block;
+    height: 50px; }
+  main .content-col p {
+    font-family: "Roboto-Regular";
+    font-size: 1rem;
+    line-height: 25px; }
+
+main .figure img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+main .cont_block_top, main .cont_block_bottom {
+  width: 100%;
+  font-family: "Roboto-Regular"; }
+  main .cont_block_top .block-text, main .cont_block_bottom .block-text {
+    width: 48%;
+    float: left;
+    margin-bottom: 60px;
+    box-sizing: border-box; }
+    main .cont_block_top .block-text:first-child, main .cont_block_bottom .block-text:first-child {
+      margin-right: 6%; }
+  main .cont_block_top .block-text2, main .cont_block_bottom .block-text2 {
+    float: right;
+    width: 46%; }
+  main .cont_block_top .block-text h4, main .cont_block_top .block-text2 h4, main .cont_block_bottom .block-text h4, main .cont_block_bottom .block-text2 h4 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #0f5f5c; }
+  main .cont_block_top .block-text p, main .cont_block_top .block-text2 p, main .cont_block_bottom .block-text p, main .cont_block_bottom .block-text2 p {
+    margin-top: 15px;
+    font-size: 1.14rem; }
+
+.looking {
+  background: transparent url("../img/phone_bg.jpg") no-repeat scroll 55% 0/cover;
+  position: relative;
+  min-height: 660px; }
+  .looking h2 {
+    font-family: "Roboto-Light";
+    font-size: 2rem;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: #0f5f5c; }
+  .looking img {
+    display: block;
+    margin: 0 auto; }
+  .looking h5 {
+    margin-top: 20px;
+    font-family: "Roboto-Regular";
+    font-size: 1.06rem;
+    margin-bottom: 30px; }
+  .looking .responsive {
+    bottom: 4%;
+    position: absolute;
+    right: 2%;
+    width: 48%; }
+    .looking .responsive h3 {
+      font-family: "Roboto-Light";
+      font-size: 2rem;
+      color: #0f5f5c; }
+    .looking .responsive p {
+      color: #83a7a5;
+      font-size: 1.1rem;
+      font-family: "Roboto-Regular";
+      margin-bottom: 25px; }
+    .looking .responsive img {
+      display: inline;
+      padding-right: 7px; }
+
+.director {
+  position: relative; }
+  .director .director_says {
+    float: left;
+    margin-left: 3%;
+    margin-top: 18%;
+    width: 46%; }
+    .director .director_says p {
+      font-family: "Merriweather-LightIt";
+      font-size: 22px;
+      line-height: 35px; }
+    .director .director_says .valeria {
+      font-family: "Roboto-Regular";
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 60px; }
+      .director .director_says .valeria span {
+        font-family: "Roboto-Medium";
+        color: #6fb048; }
+  .director .director_photo {
+    float: right;
+    margin-right: 9%;
+    margin-top: 9%;
+    width: 32%;
+    margin-bottom: 9%; }
+
+.built {
+  min-height: 500px;
+  background: transparent url("../img/map_bg.jpg") no-repeat scroll -73px 0;
+  background-size: cover; }
+  .built .b_content {
+    float: left;
+    width: 50%;
+    margin-top: 12%; }
+    .built .b_content h3 {
+      font-size: 2rem;
+      font-family: "Roboto-Light";
+      color: #0f5f5c; }
+    .built .b_content p {
+      font-family: "Roboto-Regular";
+      font-size: 1.14rem; }
+  .built .map {
+    float: right; }
+
+.pricing .plan h3 {
+  font-family: "Roboto-Light";
+  font-size: 2rem;
+  color: #0f5f5c;
+  margin: 100px 0 20px 0; }
+
+.pricing .plan img {
+  margin: 0 auto;
+  display: block; }
+
+.pricing .plan h5 {
+  font-family: "Roboto-Regular";
+  font-size: 1.07rem;
+  color: #83a7a5;
+  margin: 20px 0 40px 0;
+  line-height: 25px; }
+
+.pricing .pricing-table {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  border: 1px solid #c1d3d2;
+  margin-bottom: 80px; }
+  .pricing .pricing-table .price {
+    float: left;
+    width: 33%;
+    text-align: center; }
+    .pricing .pricing-table .price:first-child {
+      border-right: 1px solid #c1d3d2; }
+    .pricing .pricing-table .price:nth-child(3) {
+      border-left: 1px solid #c1d3d2; }
+    .pricing .pricing-table .price span {
+      color: #6fb048;
+      font-family: "Roboto-Medium";
+      font-size: 1.07rem;
+      text-transform: uppercase; }
+    .pricing .pricing-table .price h5 {
+      margin-top: 25px;
+      margin-bottom: 20px; }
+    .pricing .pricing-table .price h2 {
+      font-family: "Montserrat-Regular";
+      font-size: 4rem;
+      color: #0f5f5c; }
+    .pricing .pricing-table .price h6 {
+      color: #0f5f5c;
+      font-size: 0.8rem;
+      font-family: "Roboto-Regular";
+      margin-bottom: 25px; }
+    .pricing .pricing-table .price p {
+      font-size: 1rem;
+      font-family: "Roboto-Regular"; }
+    .pricing .pricing-table .price button {
+      background: #83a7a5;
+      border-radius: 5px;
+      color: #fff;
+      font-family: "Montserrat-Regular";
+      font-size: 0.9rem;
+      padding: 4%;
+      text-transform: uppercase;
+      width: 50%;
+      margin: 25px 0; }
+      .pricing .pricing-table .price button:hover {
+        background: #6fb048; }
+
+.pricing h4 {
+  font-size: 2rem;
+  font-family: "Roboto-Light";
+  color: #0f5f5c;
+  margin-bottom: 20px; }
+
+.pricing img {
+  margin: 0 auto;
+  display: block; }
+
+.pricing .included {
+  margin-top: 35px;
+  margin-bottom: 60px; }
+  .pricing .included img {
+    display: inline;
+    padding-right: 10px; }
+
+.pricing .help h3 {
+  margin: 15px 0 25px 0;
+  color: #6fb048;
+  font-size: 2rem;
+  font-family: "Roboto-Light"; }
+
+.pricing .help h5 {
+  margin: 20px 0 40px 0;
+  font-size: 1rem;
+  line-height: 22px; }
+
+.pricing .help a {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  color: #0f5f5c; }
+  .pricing .help a:hover {
+    color: #6fb048;
+    text-decoration: none; }
+
+.download {
+  background: url(../img/download_bg.jpg) no-repeat;
+  background-size: cover; }
+  .download h2 {
+    font-size: 1.75rem;
+    font-family: "Montserrat-Regular";
+    margin: 75px 0 10px 0; }
+  .download h6 {
+    margin-bottom: 80px;
+    font-size: 1rem; }
+  .download button {
+    font-family: "Montserrat-Regular";
+    color: #ffffff;
+    padding: 10px;
+    width: 285px;
+    margin-top: 22%;
+    text-transform: uppercase;
+    border-radius: 5px; }
+
+footer .footer-top {
+  padding: 100px 0 69px 0 !important;
+  border-bottom: #eef1ec 1px solid; }
+  footer .footer-top .column h5 {
+    font-family: "Proxima Nova Bold";
+    font-size: 22px;
+    color: #0f5f5c;
+    margin-bottom: 15px; }
+  footer .footer-top .column p {
+    font-family: "Roboto-Regular";
+    color: #83a7a5;
+    font-size: 13px; }
+  footer .footer-top .column a {
+    color: #83a7a5;
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px 10px 0 3px;
+    text-decoration: none;
+    width: 100%; }
+    footer .footer-top .column a:hover {
+      background-color: #6b8282;
+      color: #ffffff; }
+  footer .footer-top .column h6 {
+    font-family: "Roboto-Medium";
+    font-size: 15px;
+    color: #0f5f5c; }
+
+footer .foot {
+  position: relative;
+  margin-bottom: 20px; }
+  footer .foot .reserved {
+    display: inline-block;
+    position: absolute;
+    top: 35px; }
+  footer .foot .social {
+    position: absolute;
+    top: 30px;
+    right: 0; }
+    footer .foot .social .social_icon {
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 20px; }
+    footer .foot .social .fa.fa {
+      padding-left: 10px;
+      padding-top: 9px;
+      color: #ffffff; }
+    footer .foot .social .twitter {
+      background: #55acee; }
+      footer .foot .social .twitter:hover {
+        background-color: #126db2; }
+    footer .foot .social .facebook {
+      background: #3b5998; }
+      footer .foot .social .facebook:hover {
+        background-color: #23345a; }
+    footer .foot .social .instagram {
+      background: #3f729b; }
+      footer .foot .social .instagram:hover {
+        background-color: #294a65; }
+    footer .foot .social .dribble {
+      background: #ea4c89; }
+      footer .foot .social .dribble:hover {
+        background-color: #d11960; }
+    footer .foot .social .github {
+      background: #333333; }
+      footer .foot .social .github:hover {
+        background-color: #424242; }
+
+#header {
+  background: url(../img/about_bg.jpg) no-repeat;
+  color: #ffffff;
+  position: relative; }
+  #header .welcome {
+    width: 100%;
+    margin: 0 auto; }
+    #header .welcome h2 {
+      font-family: "Roboto-Light";
+      font-size: 50px;
+      width: 100%;
+      margin-top: 8%; }
+    #header .welcome button {
+      border-radius: 3px;
+      display: block;
+      font-family: "Montserrat-Regular";
+      font-size: 13px;
+      margin: 5% auto 14%;
+      padding: 1.5%;
+      text-transform: uppercase;
+      width: 200px; }
+  #header .main-nav ul li .second {
+    color: #fff; }
+
+.main h5 {
+  display: block;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 35px auto 95px;
+  text-align: center;
+  width: 67%; }
+
+.main .about_row {
+  margin-bottom: 70px; }
+
+#looking {
+  background: #eef1ec no-repeat scroll 55% 0/cover;
+  position: relative; }
+  #looking h5 {
+    display: block;
+    font-family: "Roboto-Regular";
+    font-size: 1.06rem;
+    line-height: 25px;
+    margin: 40px auto;
+    width: 70%; }
+  #looking .thumbnail {
+    background-color: transparent;
+    border: medium none;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 21px;
+    margin-top: 70px;
+    transition: all 0.2s ease-in-out 0s; }
+    #looking .thumbnail h3 {
+      font-family: "Roboto-Medium";
+      font-size: 15px;
+      color: #0f5f5c;
+      margin-top: 20px; }
+    #looking .thumbnail p {
+      color: #83a7a5;
+      font-family: "Roboto-Regular";
+      font-size: 14px;
+      margin-bottom: 70px; }
+    #looking .thumbnail img {
+      display: block;
+      margin: 0; }
+
+#download {
+  background: url(../img/download_bg2.jpg) no-repeat;
+  background-size: cover;
+  color: #ffffff; }
+  #download button {
+    background: #49732f;
+    border: none;
+    width: 285px; }
+    #download button:hover {
+      background-color: #395a25; }
+
+.top-head {
+  background-color: #ffffff;
+  background-image: none; }
+  .top-head .header-top {
+    padding: 30px 0;
+    width: 100%;
+    min-height: 85px;
+    position: relative; }
+    .top-head .header-top a {
+      display: inline;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: none; }
+    .top-head .header-top .text-right {
+      margin-top: 11px;
+      text-align: right; }
+    .top-head .header-top .logo strong, .top-head .header-top .logo span {
+      font-family: "Proxima Nova Bold";
+      font-size: 1.8rem; }
+    .top-head .header-top .logo span {
+      opacity: .3; }
+    .top-head .header-top .logo strong {
+      margin-right: 10px; }
+    .top-head .header-top .logo a {
+      padding: 10px; }
+      .top-head .header-top .logo a:hover {
+        background-color: #6fb048;
+        color: #ffffff; }
+    .top-head .header-top .logo .number {
+      font-size: 14px;
+      font-family: "Montserrat-Regular";
+      line-height: 20px;
+      vertical-align: super;
+      color: #83a7a5; }
+      .top-head .header-top .logo .number:hover {
+        background-color: #6fb048;
+        color: #ffffff; }
+    .top-head .header-top .logo p a:first-child {
+      font-size: 29px; }
+      .top-head .header-top .logo p a:first-child span {
+        font-size: 28px;
+        opacity: .2;
+        padding-left: 20px;
+        padding-right: 20px; }
+    .top-head .header-top .main-nav ul li {
+      display: inline;
+      padding-left: 3px;
+      vertical-align: -moz-middle-with-baseline; }
+      .top-head .header-top .main-nav ul li a {
+        font-family: "Montserrat-Regular";
+        font-size: 15px;
+        color: #83a7a5;
+        padding: 10px; }
+        .top-head .header-top .main-nav ul li a:hover {
+          background-color: #6fb048;
+          color: #ffffff; }
+    .top-head .header-top .dropdown {
+      left: 2%;
+      position: absolute;
+      right: 2%;
+      top: 15%; }
+      .top-head .header-top .dropdown a {
+        color: #83a7a5;
+        display: inline;
+        text-decoration: none;
+        text-transform: uppercase; }
+      .top-head .header-top .dropdown .fa.fa-bars {
+        font-size: 30px;
+        left: 93%;
+        position: absolute;
+        top: 21px; }
+    .top-head .header-top .dropdown-menu {
+      background: #ffffff none repeat scroll 0 0;
+      color: #83a7a5;
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      top: 55px; }
+      .top-head .header-top .dropdown-menu li {
+        padding-bottom: 10px; }
+        .top-head .header-top .dropdown-menu li a {
+          color: #83a7a5;
+          text-decoration: none;
+          text-transform: uppercase; }
+  .top-head .header_bg {
+    background: url(../img/contactUs_bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 400px; }
+
+.get-In h4 {
+  font-family: "Roboto-Light";
+  color: #0f5f5c;
+  font-size: 32px;
+  margin: 80px 0 35px 0; }
+
+.get-In h6 {
+  font-family: "Roboto-Regular";
+  font-size: 15px;
+  margin-bottom: 75px; }
+
+.get-In form {
+  width: 152%; }
+  .get-In form input, .get-In form textarea {
+    margin-bottom: 25px;
+    width: 100%;
+    color: #83a7a5;
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    padding-left: 18px; }
+  .get-In form input {
+    height: 42px; }
+  .get-In form textarea {
+    padding-top: 10px; }
+  .get-In form button {
+    width: 190px;
+    height: 40px;
+    font-family: "Montserrat-Regular";
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 20px 0 100px 0; }
+
+.get-In .communication {
+  width: 310px;
+  height: 275px;
+  border: 2px dashed #83a7a5;
+  margin-left: 8%;
+  padding-left: 50px;
+  padding-top: 15px; }
+  .get-In .communication h3 {
+    font-size: 25px;
+    font-family: "Montserrat-Regular";
+    margin-left: -18px; }
+  .get-In .communication p {
+    text-indent: -21px; }
+    .get-In .communication p i {
+      color: #6fb048;
+      font-size: 18px;
+      padding-right: 10px;
+      display: inline; }
+    .get-In .communication p a {
+      color: #83a7a5;
+      font-size: 15px;
+      text-decoration: none; }
+      .get-In .communication p a:hover {
+        color: #6fb048; }
+    .get-In .communication p .mail {
+      color: #0f5f5c; }
+
+.top-nav {
+  background-color: #eef1ec;
+  border-bottom: 1px solid #b8ccc8; }
+
+.get-started {
+  background-color: #eef1ec; }
+  .get-started h3 {
+    margin: 60px 0 25px 0;
+    font-family: "Roboto-Light";
+    font-size: 32px;
+    color: #0f5f5c; }
+  .get-started h4 {
+    font-size: 14px;
+    margin: -35px 0 0;
+    padding-bottom: 60px;
+    color: #83a7a5; }
+    .get-started h4 span {
+      text-transform: uppercase; }
+  .get-started h6 {
+    font-size: 15px;
+    margin-bottom: 50px; }
+  .get-started .pricing-table {
+    background: #ffffff; }
+
+.pricing .center {
+  margin-top: 80px; }
+
+@font-face {
+  font-family: "Merriweather-LightIt";
+  src: url("../fonts/Merriweather-LightIt.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/Proxima Nova Bold.otf"); }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1200px) {
+  header .main-nav ul li {
+    padding-left: 7px !important; }
+  .director .director_photo {
+    margin-right: 6%; }
+  .built {
+    background: transparent url("../img/map_bg.jpg") no-repeat scroll -223px 0/cover;
+    min-height: 500px; }
+  .pricing .pricing-table .price button {
+    font-size: 0.7rem;
+    width: 55%; }
+  footer .foot .social {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 30%; } }
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+  header .dropdown {
+    font-size: 30px;
+    position: absolute;
+    right: 10%;
+    top: -32px; }
+  header .dropdown-menu {
+    background: #83a7a5 none repeat scroll 0 0;
+    font-size: 17px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    padding: 0;
+    margin: 0; }
+  header #drop {
+    width: 100% !important; }
+    header #drop li {
+      border-top: 1px solid #5c827f;
+      padding: 9px 10px; }
+    header #drop li:first-child {
+      border-top: none; }
+    header #drop a:hover {
+      color: #0f5f5c;
+      background: none; }
+  header .header-line {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid #83a7a5; }
+  header .welcome button {
+    padding: 4%;
+    width: 45%; }
+  .looking {
+    background: transparent url("../img/phone_bg.jpg") no-repeat scroll 42% 0/cover; }
+    .looking .responsive {
+      bottom: -2%; }
+  .director .director_photo {
+    margin-right: 6%;
+    margin-top: 15%; }
+  .built {
+    background: transparent url("../img/map_bg.jpg") no-repeat scroll -235px 0/cover; }
+    .built .b_content {
+      float: none;
+      margin-left: 3%;
+      margin-top: 9%;
+      width: 55%; }
+  .pricing .pricing-table {
+    width: 100%; }
+    .pricing .pricing-table .price h2 {
+      font-size: 3rem; }
+  .pricing .included {
+    display: block;
+    margin: 30px auto; }
+  .download button {
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding: 10px; }
+  footer .footer-top .column {
+    float: left;
+    margin: 0 10px 10px;
+    width: 45%; }
+  footer .foot .social {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 38%; }
+  #header .header-top .dropdown-menu {
+    background: #83a7a5 none repeat scroll 0 0;
+    font-size: 17px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 50px; }
+    #header .header-top .dropdown-menu .welcome h2 {
+      font-family: "Roboto-Light";
+      font-size: 40px;
+      margin-top: 8%;
+      width: 100%; }
+      #header .header-top .dropdown-menu .welcome h2 button {
+        margin: 5% auto 17%;
+        padding: 2%;
+        width: 200px; }
+  .main h5 {
+    width: 85%; }
+  #loking img {
+    display: block;
+    margin: 0; }
+  .top-head .dropdown {
+    font-size: 30px;
+    position: absolute;
+    right: 10%;
+    top: -32px; }
+  .top-head .dropdown-menu {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 17px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    color: #83a7a5; }
+  .top-head #drop {
+    width: 100% !important; }
+    .top-head #drop li {
+      border-top: 1px solid #5c827f;
+      padding: 9px 10px; }
+    .top-head #drop li:first-child {
+      border-top: none; }
+    .top-head #drop a:hover {
+      color: #0f5f5c;
+      background: none; } }
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px; }
+  header .welcome {
+    margin-bottom: 20%;
+    margin-left: 3%;
+    margin-top: 20%;
+    width: 60%; }
+    header .welcome button {
+      padding: 3%;
+      width: 45%; }
+  main .content-col {
+    float: left;
+    height: calc(200px);
+    width: 100%; }
+    main .content-col p {
+      margin: 0 auto;
+      width: 70%; }
+  main .cont_block_top .block-text, main .cont_block_bottom .block-text {
+    box-sizing: border-box;
+    float: none;
+    margin-bottom: 60px;
+    margin-left: 2%;
+    width: 90%; }
+  main .cont_block_top .block-text2, main .cont_block_bottom .block-text2 {
+    box-sizing: border-box;
+    float: none;
+    margin-bottom: 60px;
+    margin-left: 2%;
+    width: 90%; }
+  .looking {
+    background: #eef1ec; }
+    .looking .responsive {
+      display: block;
+      left: 12%;
+      text-align: center;
+      top: 34%;
+      width: 80%; }
+      .looking .responsive p {
+        text-align: left; }
+  .director {
+    position: relative; }
+    .director .director_photo, .director .director_says {
+      float: none; }
+    .director .director_says {
+      margin-top: 40%;
+      width: 75%; }
+      .director .director_says .valeria {
+        margin-top: 25px; }
+      .director .director_says p {
+        font-size: 17px; }
+    .director .director_photo {
+      left: 33%;
+      margin-top: 5%;
+      position: absolute;
+      top: 0; }
+  .built .b_content {
+    float: none;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 73%; }
+    .built .b_content p {
+      line-height: 35px; }
+  .pricing .pricing-table {
+    width: 95%; }
+    .pricing .pricing-table .price h2 {
+      font-size: 2.5rem; }
+    .pricing .pricing-table .price button {
+      font-size: 0.7rem;
+      padding: 10px;
+      width: 83%; }
+  .download button {
+    font-size: 1rem;
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding: 10px; }
+  footer .foot .social {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 56%; }
+  #header .welcome h2 {
+    font-size: 37px; }
+  #header .welcome button {
+    font-size: 12px;
+    margin: 9% auto 25%;
+    padding: 3%;
+    width: 190px; }
+  .main .content-col {
+    margin-bottom: 30px; }
+  #looking .thumbnail {
+    background-color: transparent;
+    border: medium none;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    margin-top: -25px;
+    padding: 21px;
+    margin: -35px auto;
+    width: 50%; }
+    #looking .thumbnail .caption {
+      color: #333;
+      margin-left: 10px;
+      padding: 9px; }
+  .get-In .communication {
+    border: 2px dashed #83a7a5;
+    height: 275px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+    margin-top: -55px;
+    padding-left: 50px;
+    padding-top: 15px;
+    width: 310px; } }
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 15px; }
+  header .header-top .number, header .header-top span {
+    visibility: hidden; }
+  header .welcome {
+    margin-bottom: 30%;
+    margin-left: 3%;
+    margin-top: 30%;
+    width: 91%; }
+  main .main_row {
+    width: 99%; }
+    main .main_row h3 {
+      margin-bottom: 20px;
+      margin-top: 35px; }
+    main .main_row p {
+      margin-bottom: 40px;
+      margin-top: 20px;
+      margin: 25px auto;
+      width: 89%; }
+  main .content-col {
+    height: calc(250px);
+    width: 100%; }
+  main .cont_block_top .block-text, main .cont_block_bottom .block-text {
+    margin-bottom: 25px;
+    margin-left: 5%;
+    width: 90%; }
+  .looking {
+    min-height: 820px; }
+    .looking .responsive {
+      left: 15%;
+      top: 25%;
+      width: 80%; }
+  .built .b_content {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 93%; }
+    .built .b_content p {
+      line-height: 28px; }
+  .pricing .pricing-table .price {
+    border-bottom: 1px solid #83a7a5;
+    width: 100%; }
+  .download button {
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding: 10px; }
+  footer .footer-top {
+    padding: 20px 0 30px 0; }
+    footer .footer-top .column {
+      float: none;
+      margin: 0 10px 10px;
+      width: 97%; }
+  footer .foot .social {
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 92%; }
+  footer .foot .reserved {
+    display: inline-block;
+    position: absolute;
+    top: 25px; }
+  #header .welcome h2 {
+    font-size: 32px;
+    margin-top: 8%;
+    width: 100%; }
+  #header .welcome button {
+    margin: 17% auto 40%;
+    width: 190px; }
+  .main .content-col {
+    margin-bottom: 30px; }
+  #looking .thumbnail {
+    width: 90%; }
+  .get-In .communication {
+    border: 2px dashed #83a7a5;
+    height: 275px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+    margin-top: -55px;
+    padding-left: 50px;
+    padding-top: 15px;
+    width: 250px; } }
+
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px) {
+  .download button {
+    font-size: 0.7rem;
+    width: 235px; }
+  footer .foot .social {
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 100%; }
+  .download button {
+    font-size: 0.7rem;
+    width: 235px !important;
+    margin-bottom: 15%; }
+    .download button:hover {
+      width: 325px; } }

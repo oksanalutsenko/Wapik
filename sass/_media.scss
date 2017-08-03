@@ -1,0 +1,542 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width:1200px) {
+	header {
+		.main-nav {
+			ul {
+				li {
+					padding-left: 7px !important;
+				}
+			}
+		}
+	}
+	.director {
+		 .director_photo {
+		    margin-right: 6%;
+		}
+	}
+	.built {
+	    background: transparent url("../img/map_bg.jpg") no-repeat scroll -223px 0 / cover ;
+	    min-height: 500px;
+	}
+	.pricing {
+		.pricing-table {
+			.price {
+				 button {
+				    font-size: 0.7rem;
+				    width: 55%;
+				}
+			}
+		}
+	}
+	footer {
+		.foot .social {
+		    position: absolute;
+		    right: 0;
+		    top: 30px;
+		    width: 30%;
+		}
+	}
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+	header {
+		.dropdown {
+			font-size: 30px;
+			position: absolute;
+			right: 10%;
+			top: -32px;
+		}
+		.dropdown-menu {
+		    background: $main-color none repeat scroll 0 0;
+		    font-size: 17px;
+		    position: absolute;
+		    right: 0;
+		    top: -10px;
+		    padding: 0;
+		    margin: 0;
+		}
+		#drop {
+			width: 100% !important;
+			li {
+			    border-top: 1px solid darken($main-color, 15%);
+			    padding: 9px 10px;
+			}
+			li:first-child {
+				border-top: none;
+			}
+			a:hover {
+				color: $accent-color;
+				background: none;
+			}
+		}
+		.header-line {
+			height: 1px;
+		     left: 0;
+			position: absolute;
+			right: 0;
+			width: 100%;
+			border-bottom: 1px solid $main-color;
+		}
+		.welcome {
+			button {
+				padding: 4%;
+				width: 45%;
+			}
+		}
+	}
+	.looking {
+	    background: transparent url("../img/phone_bg.jpg") no-repeat scroll 42% 0 / cover ;
+	    .responsive {
+	        bottom: -2%; 
+	      }
+	}
+	.director {
+		.director_photo {
+		    margin-right: 6%;
+		    margin-top: 15%;
+		}
+	}
+	.built {
+		background: transparent url("../img/map_bg.jpg") no-repeat scroll -235px 0 / cover ;
+		.b_content {
+		    float: none;
+		    margin-left: 3%;
+		    margin-top: 9%;
+		    width: 55%;
+		}
+	}
+	.pricing {
+		.pricing-table {
+		    width: 100%;
+		    .price {
+		    		h2 {
+		    	    		font-size: 3rem; 
+		    	    }
+		    	}
+		}
+		.included {
+		    display: block;
+		    margin: 30px auto;
+		}
+	}
+	.download button {
+	    margin-bottom: 5%;
+	    margin-top: 0;
+	    padding: 10px;
+	}
+	footer {
+		.footer-top {
+			.column {
+			    float: left;
+			    margin: 0 10px 10px;
+			    width: 45%;
+			}
+		}
+		.foot .social {
+		    position: absolute;
+		    right: 0;
+		    top: 30px;
+		    width: 38%;
+		}
+	}
+	//Внутренняя страница ABOUT US
+
+	#header {
+		.header-top .dropdown-menu {
+		    background: #83a7a5 none repeat scroll 0 0;
+		    font-size: 17px;
+		    left: 0;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    right: 0;
+		    top: 50px;
+		    .welcome h2 {
+		        font-family: "Roboto-Light";
+		        font-size: 40px;
+		        margin-top: 8%;
+		        width: 100%;
+		        button {
+		           margin: 5% auto 17%;
+		           padding: 2%;
+		           width: 200px;
+		         }
+		     }
+		}
+	}
+	.main h5 {
+	    width: 85%;
+	}
+	#loking {
+		img {
+		    display: block;
+		    margin: 0;
+		}
+	}
+	//Внутренняя страница CONTACT US
+
+	.top-head {
+		.dropdown {
+			font-size: 30px;
+			position: absolute;
+			right: 10%;
+			top: -32px;
+		}
+		.dropdown-menu {
+		    background: $white-color none repeat scroll 0 0;
+		    font-size: 17px;
+		    left: 0;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    right: 0;
+		    top: 50px;
+		    color: $main-color;
+		}
+		#drop {
+			width: 100% !important;
+			li {
+			    border-top: 1px solid darken($main-color, 15%);
+			    padding: 9px 10px;
+			}
+			li:first-child {
+				border-top: none;
+			}
+			a:hover {
+				color: $accent-color;
+				background: none;
+			}
+		}
+	}
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+	html {
+		font-size: 14px;
+	}
+	header {
+		.welcome {
+	       margin-bottom: 20%;
+	       margin-left: 3%;
+	       margin-top: 20%;
+	       width: 60%;
+	     	  button {
+	     	  	padding: 3%;
+	     	  	width: 45%;
+	     	  }
+		}
+	}
+	main {
+		.content-col {
+		    float: left;
+		    height: calc(200px);
+		    width: 100%;
+		    p {
+		    	margin: 0 auto;
+		    	width: 70%;
+		    }
+		}
+		.cont_block_top .block-text, .cont_block_bottom .block-text {
+		    box-sizing: border-box;
+		    float: none;
+		    margin-bottom: 60px;
+		    margin-left: 2%;
+		    width: 90%;
+		}
+		.cont_block_top .block-text2, .cont_block_bottom .block-text2  {
+			box-sizing: border-box;
+			float: none;
+			margin-bottom: 60px;
+			margin-left: 2%;
+			width: 90%;
+		}
+	}
+	.looking {
+		background: $grey-color;
+		.responsive {
+		    display: block;
+		    left: 12%;
+		    text-align: center;
+		    top: 34%;
+		    width: 80%; 
+		    p {
+		        text-align: left;
+		    }
+		}
+	}
+	.director {
+		position: relative;
+		.director_photo, .director_says {
+			float: none;
+		}
+		 .director_says {
+		     margin-top: 40%;
+		     width: 75%;
+		     .valeria {
+		     		margin-top: 25px;
+		     }
+		     p {
+		     		font-size: 17px;
+		     }
+		 }
+		.director_photo {
+		    left: 33%;
+		    margin-top: 5%;
+		    position: absolute;
+		    top: 0;
+		}
+	}
+	.built {
+		.b_content {
+		    float: none;
+		    margin-left: 5%;
+		    margin-top: 10%;
+		    width: 73%;
+			p {
+				line-height: 35px;
+			}
+		}
+	}
+	.pricing .pricing-table {
+	    width: 95%;
+	    .price {
+			h2 {
+	       	 font-size: 2.5rem; 
+	    		 }   
+		     button {
+		            font-size: 0.7rem;
+		            padding: 10px;
+		            width: 83%;
+		      }	
+		}       
+	}
+	.download button {
+	    font-size: 1rem;
+	    margin-bottom: 5%;
+	    margin-top: 0;
+	    padding: 10px;
+	}
+	footer {
+		.foot .social {
+		    position: absolute;
+		    right: 0;
+		    top: 30px;
+		    width: 56%;
+		}
+	}
+	//Внутренняя страница ABOUT US
+
+	#header {
+		.welcome {
+			h2 {
+				font-size: 37px;
+			}	 
+		    button {
+		        font-size: 12px;
+		        margin: 9% auto 25%;
+		        padding: 3%;
+		        width: 190px;
+		     }
+		}
+	}
+	.main {
+		.content-col {
+		    margin-bottom: 30px;
+		}
+	}
+	#looking {
+		 .thumbnail {
+		    background-color: transparent;
+		    border: medium none;
+		    display: block;
+		    line-height: 1.42857;
+		    margin-bottom: 20px;
+		    margin-top: -25px;
+		    padding: 21px;
+		    margin: -35px auto;
+		    width: 50%;
+		    .caption {
+		        color: #333;
+		        margin-left: 10px;
+		        padding: 9px;
+		    }
+		}
+	}
+	//Внутренняя страница CONTACT US
+
+	.get-In .communication {
+	    border: 2px dashed #83a7a5;
+	    height: 275px;
+	    margin-bottom: 40px;
+	    margin-left: 8%;
+	    margin-top: -55px;
+	    padding-left: 50px;
+	    padding-top: 15px;
+	    width: 310px;
+	}
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+	html {
+		font-size: 15px;
+	}
+	header {
+		.header-top {
+			.number, span {
+				visibility: hidden;
+			}
+		}
+		.welcome {
+		    margin-bottom: 30%;
+		    margin-left: 3%;
+		    margin-top: 30%;
+		    width: 91%;
+		}
+	}
+	main {
+		.main_row {
+			width: 99%;
+			h3 {
+			    margin-bottom: 20px;
+			    margin-top: 35px;
+			}
+			 p {
+			    margin-bottom: 40px;
+			    margin-top: 20px;
+			    margin: 25px auto;
+			    width: 89%;
+			}
+		}
+		.content-col {
+		    height: calc(250px);
+		    width: 100%;
+		}
+		.cont_block_top .block-text, .cont_block_bottom .block-text {
+		    margin-bottom: 25px;
+		    margin-left: 5%;
+		    width: 90%;
+		}
+	}
+	.looking {
+		min-height: 820px;
+		.responsive {
+		    left: 15%;
+		    top: 25%;
+		    width: 80%;
+		}
+	}
+	.built {
+		.b_content {
+		    margin-left: 5%;
+		    margin-top: 10%;
+		    width: 93%;
+			p {
+				line-height: 28px;
+			}
+		}
+	}
+	.pricing .pricing-table .price {
+	    border-bottom: 1px solid $main-color;
+	    width: 100%;
+	}
+	.download button {
+	    font-size: 0.9rem;
+	    margin-bottom: 5%;
+	    margin-top: 0;
+	    padding: 10px;
+	}
+	footer {
+		.footer-top {
+		    padding: 20px 0 30px 0;
+		     .column {
+		        float: none;
+		        margin: 0 10px 10px;
+		        width: 97%;
+		    }
+		} 
+		.foot .social {
+		    position: absolute;
+		    right: 0;
+		    top: 75px;
+		    width: 92%;
+		}
+		.foot .reserved {
+		    display: inline-block;
+		    position: absolute;
+		    top: 25px;
+		}
+	}
+	//Внутренняя страница ABOUT US
+
+	#header {
+		.welcome {
+			h2 {
+			    font-size: 32px;
+			    margin-top: 8%;
+			    width: 100%;
+			}
+			button {
+			    margin: 17% auto 40%;
+			    width: 190px;
+			}
+	     } 
+	}
+	.main {
+		.content-col {
+		    margin-bottom: 30px;
+		}
+	}
+	#looking{
+		.thumbnail {
+			width: 90%;
+		}
+	}
+	//Внутренняя страница CONTACT US
+
+	.get-In .communication {
+	    border: 2px dashed #83a7a5;
+	    height: 275px;
+	    margin-bottom: 40px;
+	    margin-left: 8%;
+	    margin-top: -55px;
+	    padding-left: 50px;
+	    padding-top: 15px;
+	    width: 250px;
+	}
+}
+
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px) {
+	.download button {
+	    font-size: 0.7rem;
+	    width: 235px;
+	}
+	footer .foot .social {
+	    position: absolute;
+	    right: 0;
+	    top: 75px;
+	    width: 100%;
+	}
+	//Внутренняя страница ABOUT US
+
+	.download button {
+	    font-size: 0.7rem;
+	    width: 235px !important;
+	    margin-bottom: 15%;
+	    &:hover {
+			width: 325px;
+	    }
+	}
+}
+	
+
+
+
+
+
