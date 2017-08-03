@@ -458,6 +458,8 @@ footer .footer-top {
     font-family: "Roboto-Medium";
     font-size: 15px;
     color: #0f5f5c; }
+  footer .footer-top .com {
+    margin-left: -4px; }
 
 footer .foot {
   position: relative;
@@ -478,8 +480,8 @@ footer .foot {
       margin-right: 10px;
       margin-bottom: 20px; }
     footer .foot .social .fa.fa {
-      padding-left: 10px;
-      padding-top: 9px;
+      padding-left: 12px;
+      padding-top: 10px;
       color: #ffffff; }
     footer .foot .social .twitter {
       background: #55acee; }

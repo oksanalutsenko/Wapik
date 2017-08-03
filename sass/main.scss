@@ -504,6 +504,9 @@ footer {
 				color: $accent-color;
 			}
 		}
+		.com {
+		    margin-left: -4px;
+		}
 	} 
 	.foot {
 		position: relative;
@@ -526,8 +529,8 @@ footer {
 				margin-bottom: 20px;
 			}	
 			.fa.fa {
-			    padding-left: 10px;
-			    padding-top: 9px;
+			    padding-left: 12px;
+			    padding-top: 10px;
 			    color: $white-color;
 			}
 			.twitter {
